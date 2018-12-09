@@ -19,32 +19,17 @@
   <button id="buy-click-power">Buy for <span id="click-power=price">50</span></button>
   <p>level: <span id="click-power-level">1</span></p>
 
+  <!-- Granda Section  -->
+  <hr />
+  <p>Grandmas</p>
+  <p>Producing <span id="gradma-multiple">0</span></p>
+  <button id="buy-gramda">Buy for <span="grandma-price">500</span></button>
+  <p>Level: <span id="grandma-level">0</span></p>
 
 
 
   <!-- Script Section  -->
-  <script>
-    let cookieCount = 0;
-    let clickPower = 1;
-    let clickPowerPriceAmount = 50;
-    let clickPowerLevelNumber = 1;
-
-      // DOM Variables
-      let cookieCounter = document.getElementById("cookie-counter");
-      let cookieClicker = document.getElementById("cookie-clicker");
-      let buyClickPower = document.getElementById("buy-click-power");
-      let clickPowerPrice = document.getElementById("click-power-price");
-      let clickPowerLevel = document.getElementById("click-power-levekl");
-      let clickPowerMultiple = document.getElementById("click-power-multiple");
-
-
-      // Event Listener
-      cookieClicker.addEventListener("click", () => {
-        cookieCount = cookieCount + clickPower
-        cookieCounter.innerHTML = cookieCount
-      })
-
-  </script>
+  <script src="./scripts.js"></script>
 
   </body>
 </html>
